@@ -1,21 +1,6 @@
-import {
-  ReactElement,
-  JSXElementConstructor,
-  ReactFragment,
-  ReactPortal,
-} from "react";
+import { ReactFragment } from "react";
 
-const ServerTable = (props: {
-  children:
-    // | string
-    // | number
-    // | boolean
-    // | ReactElement<any, string | JSXElementConstructor<any>>
-    | ReactFragment
-    // | ReactPortal
-    // | null
-    // | undefined;
-}) => {
+const ServerTable = (props: { children: ReactFragment }) => {
   return (
     <table>
       <thead>
