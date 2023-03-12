@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Server Monitoring</h1>
+      <h1>Server Monitoring!</h1>
 
       {isLoading && <p>Loading...</p>}
       {results && !isLoading && (
